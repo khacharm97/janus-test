@@ -1,0 +1,12 @@
+{
+    "name": "janus/register",
+    "description": "User register listener",
+    "authors": [
+        {
+            "name": "Armen Khachatryan",
+            "email": "xacharm97@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}
