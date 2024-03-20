@@ -17,7 +17,7 @@ npm install
 ```
 cp .env.example .env
 ```
-- fill your env credentials (db, mail)
+- fill your env credentials in .env (db, mail)
 ```sh
 php artisan migrate
 ```
@@ -26,6 +26,9 @@ npm run dev
 ```
 ```sh
 php artisan queue:work 
+```
+```sh
+php artisan serve 
 ```
 ## About Laravel
 
