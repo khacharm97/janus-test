@@ -7,6 +7,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Installation
+```sh
+composer install
+```
+```sh
+npm install
+```
+```
+cp .env.example .env
+```
+- fill your env credentials (db, mail)
+```sh
+php artisan migrate
+```
+```sh
+npm run dev
+```
+```sh
+php artisan queue:work 
+```
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
